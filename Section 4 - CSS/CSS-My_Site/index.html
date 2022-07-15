@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ren Tsukino</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- 
+                                **Notes**
+        - width of 100% uses the entire viewport (the screen)
+        - border doesn't affect the width of an element; it adds the px of border with width (ex. 300px width with 3px border will have 303px)
+        - padding increases the size of a box (adds to box width)
+        - margin creates a zone between elements outside the border
+        - margin doesn't affect the height or width
+        - Display property:
+            - block: takes up entire width of element
+                - <p>, <h1-6>, <div>, (<ol>, <ul>, <li>), <form>
+            - inline: only uses space that it needs
+                - <span>, <img>, <a>
+                - You can't change width of inline elements
+            - inline-block: combination of block and inline; allows elements to stay on the same line and change width of element
+            - none: removes element
+        - Positioning:
+            - Static: Default HTML flow
+            - Relative: Position relative to where it would be if it were static
+                    - ex. moving element 20px left from its original position
+                    - Position: relative alone doesn't make any changes; should be used with left, right, top, bottom
+                    - Doesn't affect other elements; won't push elements down if moved
+            - Absolute:
+            - Fixed:
+     -->
+    <!-- div is used to divide content into container/boxes-->
+    <div class="top-container">
+        <img src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Ren</h1>
+        <p>a programmer</p>
+        <img src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+
+    </div>
+    <div class="middle-container"></div>
+    <div class="bottom-container"></div>
+</body>
+
+</html>
