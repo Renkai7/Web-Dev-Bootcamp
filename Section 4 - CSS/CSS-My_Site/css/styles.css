@@ -33,6 +33,7 @@ h1 {
 	text-decoration: underline;
 }
 
+/* example use of position: absolute */
 .top-cloud {
 	position: absolute;
 	right: 300px;
