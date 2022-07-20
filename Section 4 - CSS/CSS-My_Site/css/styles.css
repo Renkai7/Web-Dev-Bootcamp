@@ -18,7 +18,9 @@ h1 {
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-size: 2.5rem;
+	font-weight: normal;
 	color: #66bfbf;
+	/* line-height: 2; */
 }
 
 h3 {
