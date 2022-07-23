@@ -10,4 +10,12 @@ var superheroes = require("superheroes");
 
 var mySuperheroName = superheroes.random();
 
-console.log(mySuperheroName);
+// console.log(mySuperheroName);
+
+// ****** Supervillain names
+// get access to module - following documentation
+const supervillains = require("supervillains");
+
+var mySupervillainName = supervillains.random();
+
+console.log(mySupervillainName);
