@@ -14,30 +14,6 @@ import App from "./App";
 
 // customStyle.color = "blue";
 
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(
-// 	// Putting html elements inside JSX
-// 	// <div>
-// 	// 	<h1>Hello World!</h1>
-// 	// 	<p>This is a paragraph</p>
-// 	// </div>
-// 	// <div>
-// 	// 	<h1>My Favorite Foods</h1>
-// 	// 	<ul>
-// 	// 		<li>Pizza</li>
-// 	// 		<li>Burger</li>
-// 	// 		<li>Steak</li>
-// 	// 	</ul>
-// 	// </div>
-
-// 	// Putting Javascript code inside html while using ReactDOM
-// 	// <div>
-// 	// 	<h1>
-// 	// 		Hello {fname} {lname}
-// 	// 	</h1>
-// 	// 	<p>Your lucky number is {luckyNumber}</p>
-// 	// </div>
-
 // 	// JSX Practice
 // 	// <div>
 // 	// 	<p>
