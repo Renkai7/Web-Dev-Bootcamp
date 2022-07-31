@@ -1,15 +1,17 @@
 import React from "react";
-// import ReactDOM from "react-dom/client";
+// eslint-disable-next-line
 import Heading from "./Heading";
+// eslint-disable-next-line
 import List from "./List";
+// eslint-disable-next-line
 import Greeting from "./Greeting";
 import Card from "./Card";
 
 function App() {
 	return (
 		<div>
-			<Heading />
-			<List />
+			{/* <Heading /> */}
+			{/* <List /> */}
 			<Card
 				name="Spider-man"
 				img="https://blog.playstation.com/tachyon/2022/06/0c3c20a8d8514501524a0859461f391572ea6e61.jpg?resize=1088%2C612&crop_strategy=smart"
@@ -22,7 +24,7 @@ function App() {
 				img="https://playcontestofchampions.com/wp-content/uploads/2021/11/champion-iron-man-infinity-war-720x720.jpg"
 				alt="Iron Man"
 			/>
-			<Greeting />
+			{/* <Greeting /> */}
 		</div>
 	);
 }
